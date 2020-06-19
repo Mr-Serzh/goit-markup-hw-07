@@ -112,15 +112,15 @@ img {
 
 .underline {
   position: relative;
-}
 
-.underline::after {
-  content: '';
-  position: absolute;
-  width: calc(100% - 30px);
-  height: 1px;
-  bottom: -94px;
-  background-color: #ececec;
+  &::after {
+    content: '';
+    position: absolute;
+    width: calc(100% - 30px);
+    height: 1px;
+    bottom: -94px;
+    background-color: #ececec;
+  }
 }
 // end MAIN
 
