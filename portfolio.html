@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Web Studio</title>
   </head>
   <body>
@@ -49,15 +49,15 @@
       <section class="section portfolio">
         <div class="container">
           <h1 class="section-title visually-hidden">Наши работы</h1>
-          <ul class="list filter">
-            <li class="item"><button class="botton">Все</button></li>
-            <li class="item"><button class="botton">Веб-сайты</button></li>
-            <li class="item"><button class="botton">Приложения</button></li>
-            <li class="item"><button class="botton">Дизайн</button></li>
-            <li class="item"><button class="botton">Маркетинг</button></li>
+          <ul class="list filter js-filter">
+            <li class="item"><button class="botton" id="filt-all">Все</button></li>
+            <li class="item"><button class="botton" id="filt-web">Веб-сайты</button></li>
+            <li class="item"><button class="botton" id="filt-widg">Приложения</button></li>
+            <li class="item"><button class="botton" id="filt-design">Дизайн</button></li>
+            <li class="item"><button class="botton" id="filt-mark">Маркетинг</button></li>
           </ul>
           <ul class="list examples-portfolio">
-            <li class="item portfolio-card">
+            <li class="item portfolio-card type-web">
               <a class="link" target="_blank" href="">
                 <div class="info-card">
                   <img src="./images/portfolio/portfolio1.jpg" alt="Ноутбук" width="370" height="294" />
@@ -71,7 +71,7 @@
                 </div>
               </a>
             </li>
-            <li class="item portfolio-card">
+            <li class="item portfolio-card type-design">
               <a class="link" target="_blank" href="">
                 <div class="info-card">
                   <img src="./images/portfolio/portfolio2.jpg" alt="спортсмены" width="370" height="294" />
@@ -85,7 +85,7 @@
                 </div>
               </a>
             </li>
-            <li class="item portfolio-card">
+            <li class="item portfolio-card type-widg">
               <a class="link" target="_blank" href="">
                 <div class="info-card">
                   <img src="./images/portfolio/portfolio3.jpg" alt="Логотип ресторана" width="370" height="294" />
@@ -99,7 +99,7 @@
                 </div>
               </a>
             </li>
-            <li class="item portfolio-card">
+            <li class="item portfolio-card type-mark">
               <a class="link" target="_blank" href="">
                 <div class="info-card">
                   <img src="./images/portfolio/portfolio4.jpg" alt="Наушники" width="370" height="294" />
@@ -113,7 +113,7 @@
                 </div>
               </a>
             </li>
-            <li class="item portfolio-card">
+            <li class="item portfolio-card type-widg">
               <a class="link" target="_blank" href="">
                 <div class="info-card">
                   <img src="./images/portfolio/portfolio5.jpg" alt="Коробки" width="370" height="294" />
@@ -127,7 +127,7 @@
                 </div>
               </a>
             </li>
-            <li class="item portfolio-card">
+            <li class="item portfolio-card type-web">
               <a class="link" target="_blank" href="">
                 <div class="info-card">
                   <img src="./images/portfolio/portfolio6.jpg" alt="Монитор" width="370" height="294" />
@@ -141,7 +141,7 @@
                 </div>
               </a>
             </li>
-            <li class="item portfolio-card">
+            <li class="item portfolio-card type-design">
               <a class="link" target="_blank" href="">
                 <div class="info-card">
                   <img src="./images/portfolio/portfolio7.jpg" alt="Книга" width="370" height="294" />
@@ -155,7 +155,7 @@
                 </div>
               </a>
             </li>
-            <li class="item portfolio-card">
+            <li class="item portfolio-card type-mark">
               <a class="link" target="_blank" href="">
                 <div class="info-card">
                   <img src="./images/portfolio/portfolio8.jpg" alt="Этикетка" width="370" height="294" />
@@ -169,7 +169,7 @@
                 </div>
               </a>
             </li>
-            <li class="item portfolio-card">
+            <li class="item portfolio-card type-widg">
               <a class="link" target="_blank" href="">
                 <div class="info-card">
                   <img src="./images/portfolio/portfolio9.jpg" alt="Ноутбук" width="370" height="294" />
@@ -252,7 +252,7 @@
               </button>
             </form>
           </div>
-        </div>        
+        </div>
       </div>
     </footer>
     <!-- end footer -->
