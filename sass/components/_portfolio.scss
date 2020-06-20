@@ -23,7 +23,7 @@
   margin-right: 30px;
   margin-bottom: 30px;
 
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: $transition;
 }
 
 .info-card {
@@ -48,7 +48,7 @@
 
   transform: translateY(100%);
 
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: $transition;
 
   .examples-portfolio .item:hover & {
     opacity: 0.9;
