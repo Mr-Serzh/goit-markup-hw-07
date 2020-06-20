@@ -366,8 +366,8 @@ img {
 
 .social-links .icon {
   fill: #afb1b8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links .link:hover,
@@ -436,8 +436,8 @@ img {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav {
@@ -489,8 +489,8 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-list .item + .item {
@@ -508,8 +508,8 @@ img {
   fill: #757575;
   margin-right: 10px;
   vertical-align: middle;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact:hover, .header-contact:focus {
@@ -539,7 +539,12 @@ img {
   background-size: cover;
 }
 
-.hero .hero-title {
+.hero.overlay.maldives {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.3)), to(rgba(47, 48, 58, 0.3))), url("../images/Maldives.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.3), rgba(47, 48, 58, 0.3)), url("../images/Maldives.jpg");
+}
+
+.hero-title {
   margin-top: 0;
   margin-bottom: 30px;
   max-width: 646px;
@@ -717,8 +722,8 @@ img {
 
 .clients-list .icon {
   fill: #afb1b8;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list .link:hover,
@@ -861,8 +866,8 @@ img {
   border-radius: 2px;
   -webkit-transform: translateY(2px);
           transform: translateY(2px);
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-field .contract {
@@ -956,8 +961,8 @@ img {
   color: rgba(255, 255, 255, 0.6);
   display: block;
   margin-bottom: 9px;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address .footer-contact:hover, .address .footer-contact:focus {
@@ -1055,8 +1060,8 @@ img {
 .botton.sign .icon {
   margin-left: 10px;
   fill: #ffffff;
-  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .botton.sign:hover .icon,
